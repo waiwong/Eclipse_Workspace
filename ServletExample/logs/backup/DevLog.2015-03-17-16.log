@@ -1,0 +1,42 @@
+2015.03.17 16:01:08.529 INFO  servlets.example.TestLog4jServlet 31 doGet - [http-bio-8080-exec-3][TestLog4jServlet.java:31] - This is a logging statement from log4j
+2015.03.17 16:01:08.584 INFO  servlets.example.TestLog4jServlet 32 doGet - [http-bio-8080-exec-3][TestLog4jServlet.java:32] - Hello, World!
+2015.03.17 16:01:08.585 ERROR servlets.example.TestLog4jServlet 33 doGet - [http-bio-8080-exec-3][TestLog4jServlet.java:33] - Hello, World!
+2015.03.17 16:01:08.586 DEBUG servlets.example.TestLog4jServlet 34 doGet - [http-bio-8080-exec-3][TestLog4jServlet.java:34] - debug message
+2015.03.17 16:01:08.587 INFO  servlets.example.TestLog4jServlet 35 doGet - [http-bio-8080-exec-3][TestLog4jServlet.java:35] - info message
+2015.03.17 16:01:08.588 WARN  servlets.example.TestLog4jServlet 36 doGet - [http-bio-8080-exec-3][TestLog4jServlet.java:36] - warn message
+2015.03.17 16:01:08.593 ERROR servlets.example.TestLog4jServlet 37 doGet - [http-bio-8080-exec-3][TestLog4jServlet.java:37] - error message
+2015.03.17 16:01:08.594 FATAL servlets.example.TestLog4jServlet 38 doGet - [http-bio-8080-exec-3][TestLog4jServlet.java:38] - fatal message
+2015.03.17 16:30:42.406 INFO  servlets.example.HelloWorld 28 doGet - [http-bio-8080-exec-3][HelloWorld.java:28] - This is a logging statement from log4j in HelloServlet
+2015.03.17 16:30:43.283 DEBUG servlets.example.HelloWorld 29 doGet - [http-bio-8080-exec-3][HelloWorld.java:29] - debug message
+2015.03.17 16:30:43.802 INFO  servlets.example.HelloWorld 30 doGet - [http-bio-8080-exec-3][HelloWorld.java:30] - info message
+2015.03.17 16:30:44.402 WARN  servlets.example.HelloWorld 31 doGet - [http-bio-8080-exec-3][HelloWorld.java:31] - warn message
+2015.03.17 16:30:44.951 ERROR servlets.example.HelloWorld 32 doGet - [http-bio-8080-exec-3][HelloWorld.java:32] - error message
+2015.03.17 16:30:45.514 FATAL servlets.example.HelloWorld 33 doGet - [http-bio-8080-exec-3][HelloWorld.java:33] - fatal message
+2015.03.17 16:30:49.685 DEBUG servlets.example.HelloWorld 41 doGet - [http-bio-8080-exec-3][HelloWorld.java:41] - parameter color value is null, use default value:
+2015.03.17 16:30:54.042 DEBUG servlets.example.HelloWorld 58 doGet - [http-bio-8080-exec-3][HelloWorld.java:58] - <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN");"http://www.w3.org/TR/html4/loose.dtd">
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html" charset=ISO-8859-1"> 
+<title> My first jsp  </title> 
+</head> 
+<body> 
+ <font size="12px" color="blue">Hello World</font> 
+</body> 
+</html>
+2015.03.17 16:34:43.523 INFO  servlets.example.HelloWorld 28 doGet - [http-bio-8080-exec-6][HelloWorld.java:28] - This is a logging statement from log4j in HelloServlet
+2015.03.17 16:34:43.528 DEBUG servlets.example.HelloWorld 29 doGet - [http-bio-8080-exec-6][HelloWorld.java:29] - debug message
+2015.03.17 16:34:43.529 INFO  servlets.example.HelloWorld 30 doGet - [http-bio-8080-exec-6][HelloWorld.java:30] - info message
+2015.03.17 16:34:43.529 WARN  servlets.example.HelloWorld 31 doGet - [http-bio-8080-exec-6][HelloWorld.java:31] - warn message
+2015.03.17 16:34:43.530 ERROR servlets.example.HelloWorld 32 doGet - [http-bio-8080-exec-6][HelloWorld.java:32] - error message
+2015.03.17 16:34:43.530 FATAL servlets.example.HelloWorld 33 doGet - [http-bio-8080-exec-6][HelloWorld.java:33] - fatal message
+2015.03.17 16:34:43.532 DEBUG servlets.example.HelloWorld 38 doGet - [http-bio-8080-exec-6][HelloWorld.java:38] - parameter color value: black
+2015.03.17 16:34:43.532 DEBUG servlets.example.HelloWorld 58 doGet - [http-bio-8080-exec-6][HelloWorld.java:58] - <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html" charset=ISO-8859-1"> 
+<title> My first jsp  </title> 
+</head> 
+<body> 
+ <font size="12px" color="black">Hello World</font> 
+</body> 
+</html>

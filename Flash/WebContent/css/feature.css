@@ -1,0 +1,106 @@
+/***** CONTENT *****/
+#text {
+	display: block;
+	float: left;
+	clear: left;
+	width: 900px;
+	padding: 20px;
+	margin: 0 0 30px 0;
+	clear: both;
+	text-align: justify;
+	font-size: 0.9em;
+}
+
+#text h1 {
+	background: #F8F7D0 url(images/adobe.jpg) no-repeat 0 bottom;
+	border: #EEEEDF 1px solid;
+	height: 25px;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 5px 0 0 30px;
+	margin: 10px 0;
+	color: #006699;
+}
+
+#text p {
+	padding: 68% 0  5px 15px;
+    font-size: 16px;
+}
+
+#text img {
+    border: none;
+}
+
+#text img.alignleft {
+	display: block;
+	padding: 3px;
+	background: #F5F4F3;
+	border: 1px solid #E8E4F0;
+    position: absolute;
+    left: 15%;
+    top: 65px;
+	margin: 0 10px 2px 0;
+}
+	
+/* Back to top */
+
+#text a.backToTop {
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 20px;
+	margin-top: -5px;
+	margin-bottom: 4px;
+	background: url(images/content_backToTop.jpg) no-repeat right 0;
+}
+
+#text a:hover.backToTop {
+	border: none;
+	background: url(images/content_backToTop.jpg) no-repeat right -20px;
+}
+
+
+/*******Roll Bar*******/
+.shell { 
+	     width:910px;
+         margin:0 auto; 
+}
+
+.projects { position:relative; }
+
+.projects ul { 
+	          list-style-type: none; 
+	          height:330px; 
+	          overflow:hidden; 
+	          width:915px; 
+	          position:relative; 
+}
+
+.projects ul li { 
+	              float:left; 
+	              width:910px; 
+	              height:330px; 
+	              background:url(images/project.png) no-repeat 0 0; 
+	              padding:8px;
+}
+
+.projects ul li .project-info { 
+	             float:left; 
+	             width:280px; 
+	             padding:10px; 
+}
+
+.projects ul li .project-info h4{ 
+	             font-size:18px; 
+	             font-weight: bold; 
+	             color:#332002;
+}
+
+.projects ul li .project-swf { 
+	             float:right; 
+	             width:600px; 
+	             height:300px; 
+	             position:relative; 
+	             line-height:28px;
+}
+.projects p { padding-bottom:15px; }

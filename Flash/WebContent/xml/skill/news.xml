@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csdeny>
+	<news date="2010-03-05" title="test01">
+		<content>我只是一段沒意义的文字</content>
+	</news>
+	<news date="2010-04-04" title="test02">
+		<content>我只是一段沒意义的文字</content>
+	</news>
+	<news date="2010-04-05" title="test03">
+		<content>我只是一段沒意义的文字</content>
+	</news>
+	<news date="2006-04-08" title="test04">
+		<content>我只是一段沒意义的文字</content>
+	</news>
+	<news date="2010-04-010" title="test05">
+		<content>我只是一段沒意义的文字</content>
+	</news>
+	<news date="2010-04-013" title="test06">
+		<content>我只是一段沒意义的文字</content>
+	</news>
+	<news date="2010-04-015" title="test07">
+		<content>我只是一段沒意义的文字</content>
+	</news>
+</csdeny>

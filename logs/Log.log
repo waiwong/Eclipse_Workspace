@@ -1,0 +1,266 @@
+2015-03-22 22:29:29.351 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 161 loadDrivers - [http-nio-8080-exec-2][DBConnectionManager.java:161] - Registered the JDBC:com.mysql.jdbc.Driver
+2015-03-22 22:29:29.366 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 130 createPools - [http-nio-8080-exec-2][DBConnectionManager.java:130] - Create pool success:mysql
+2015-03-22 22:29:29.741 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-2][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:31:37.361 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 161 loadDrivers - [http-nio-8080-exec-5][DBConnectionManager.java:161] - Registered the JDBC:com.mysql.jdbc.Driver
+2015-03-22 22:31:37.376 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 130 createPools - [http-nio-8080-exec-5][DBConnectionManager.java:130] - Create pool success:mysql
+2015-03-22 22:31:38.079 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-5][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:32:17.013 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-6][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:32:23.580 INFO  tst.sample.LogoutServlet tst.sample.LogoutServlet 49 doGet - [http-nio-8080-exec-8][LogoutServlet.java:49] - User logout
+2015-03-22 22:43:45.658 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 161 loadDrivers - [http-nio-8080-exec-2][DBConnectionManager.java:161] - Registered the JDBC:com.mysql.jdbc.Driver
+2015-03-22 22:43:45.674 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 130 createPools - [http-nio-8080-exec-2][DBConnectionManager.java:130] - Create pool success:mysql
+2015-03-22 22:43:46.018 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-2][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:43:48.690 INFO  tst.sample.LogoutServlet tst.sample.LogoutServlet 49 doGet - [http-nio-8080-exec-4][LogoutServlet.java:49] - User logout
+2015-03-22 22:44:22.452 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 161 loadDrivers - [http-nio-8080-exec-2][DBConnectionManager.java:161] - Registered the JDBC:com.mysql.jdbc.Driver
+2015-03-22 22:44:22.468 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 130 createPools - [http-nio-8080-exec-2][DBConnectionManager.java:130] - Create pool success:mysql
+2015-03-22 22:44:22.858 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-2][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:44:25.046 INFO  tst.sample.LogoutServlet tst.sample.LogoutServlet 49 doGet - [http-nio-8080-exec-4][LogoutServlet.java:49] - User logout
+2015-03-22 22:44:40.110 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-5][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:44:45.806 INFO  tst.sample.LogoutServlet tst.sample.LogoutServlet 49 doGet - [http-nio-8080-exec-7][LogoutServlet.java:49] - User logout
+2015-03-22 22:45:58.426 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 161 loadDrivers - [http-nio-8080-exec-5][DBConnectionManager.java:161] - Registered the JDBC:com.mysql.jdbc.Driver
+2015-03-22 22:45:58.442 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 130 createPools - [http-nio-8080-exec-5][DBConnectionManager.java:130] - Create pool success:mysql
+2015-03-22 22:45:58.895 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-5][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:46:04.318 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-6][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:46:09.789 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-7][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:46:14.665 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-8][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:46:16.704 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-9][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:46:17.965 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-10][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:46:19.340 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-1][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:46:19.349 ERROR tst.sample.CartServlet tst.sample.CartServlet 193 doGet - [http-nio-8080-exec-1][CartServlet.java:193] - null java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542) ~[?:1.8.0_20]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_20]
+	at tst.sample.CartServlet.doGet(CartServlet.java:114) [CartServlet.class:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.2.jar:2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [catalina.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [catalina.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.0.20]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [catalina.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [catalina.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-coyote.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-coyote.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-coyote.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-coyote.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-coyote.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_20]
+
+2015-03-22 22:46:24.201 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-2][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:46:24.204 ERROR tst.sample.CartServlet tst.sample.CartServlet 193 doGet - [http-nio-8080-exec-2][CartServlet.java:193] - null java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542) ~[?:1.8.0_20]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_20]
+	at tst.sample.CartServlet.doGet(CartServlet.java:114) [CartServlet.class:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.2.jar:2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [catalina.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [catalina.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.0.20]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [catalina.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [catalina.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-coyote.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-coyote.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-coyote.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-coyote.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-coyote.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_20]
+
+2015-03-22 22:46:56.595 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-3][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:46:59.992 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-4][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:47:04.221 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-5][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:47:09.098 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-6][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:47:12.640 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-7][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:47:12.642 ERROR tst.sample.CartServlet tst.sample.CartServlet 193 doGet - [http-nio-8080-exec-7][CartServlet.java:193] - null java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542) ~[?:1.8.0_20]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_20]
+	at tst.sample.CartServlet.doGet(CartServlet.java:114) [CartServlet.class:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.2.jar:2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [catalina.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [catalina.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.0.20]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [catalina.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [catalina.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-coyote.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-coyote.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-coyote.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-coyote.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-coyote.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_20]
+
+2015-03-22 22:47:15.878 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-8][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:47:15.889 ERROR tst.sample.CartServlet tst.sample.CartServlet 193 doGet - [http-nio-8080-exec-8][CartServlet.java:193] - null java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542) ~[?:1.8.0_20]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_20]
+	at tst.sample.CartServlet.doGet(CartServlet.java:114) [CartServlet.class:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.2.jar:2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [catalina.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [catalina.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.0.20]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [catalina.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [catalina.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-coyote.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-coyote.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-coyote.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-coyote.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-coyote.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_20]
+
+2015-03-22 22:47:18.977 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-9][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:47:20.216 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-10][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:47:20.218 ERROR tst.sample.CartServlet tst.sample.CartServlet 193 doGet - [http-nio-8080-exec-10][CartServlet.java:193] - null java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542) ~[?:1.8.0_20]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_20]
+	at tst.sample.CartServlet.doGet(CartServlet.java:114) [CartServlet.class:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.2.jar:2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [catalina.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [catalina.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.0.20]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [catalina.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [catalina.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-coyote.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-coyote.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-coyote.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-coyote.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-coyote.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_20]
+
+2015-03-22 22:48:05.572 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 161 loadDrivers - [http-nio-8080-exec-2][DBConnectionManager.java:161] - Registered the JDBC:com.mysql.jdbc.Driver
+2015-03-22 22:48:05.572 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 130 createPools - [http-nio-8080-exec-2][DBConnectionManager.java:130] - Create pool success:mysql
+2015-03-22 22:48:05.994 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-2][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:48:11.988 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-4][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:48:13.958 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-5][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:48:23.520 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-6][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:48:30.351 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-7][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:48:32.719 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-8][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:48:40.566 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-9][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:48:41.934 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-10][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:48:58.926 ERROR tst.sample.CartServlet tst.sample.CartServlet 193 doGet - [http-nio-8080-exec-10][CartServlet.java:193] - null java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542) ~[?:1.8.0_20]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_20]
+	at tst.sample.CartServlet.doGet(CartServlet.java:114) [CartServlet.class:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.2.jar:2.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [catalina.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [catalina.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.0.20]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610) [catalina.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [catalina.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [catalina.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-coyote.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-coyote.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-coyote.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-coyote.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-coyote.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_20]
+
+2015-03-22 22:51:43.914 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 161 loadDrivers - [http-nio-8080-exec-2][DBConnectionManager.java:161] - Registered the JDBC:com.mysql.jdbc.Driver
+2015-03-22 22:51:43.930 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 130 createPools - [http-nio-8080-exec-2][DBConnectionManager.java:130] - Create pool success:mysql
+2015-03-22 22:51:44.336 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-2][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:51:56.420 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-3][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:52:01.198 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-4][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:52:03.232 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-5][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:52:21.586 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-6][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:52:30.361 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-7][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:53:37.920 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-8][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:53:40.567 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-9][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:53:43.174 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-10][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:53:45.323 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-1][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:53:49.191 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-2][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:54:11.460 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-3][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:55:00.577 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-4][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:56:38.737 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 161 loadDrivers - [http-nio-8080-exec-5][DBConnectionManager.java:161] - Registered the JDBC:com.mysql.jdbc.Driver
+2015-03-22 22:56:38.753 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 130 createPools - [http-nio-8080-exec-5][DBConnectionManager.java:130] - Create pool success:mysql
+2015-03-22 22:56:39.019 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-5][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:56:59.220 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-9][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:57:01.856 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-3][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:57:03.944 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-6][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:57:06.239 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-1][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:57:07.498 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-4][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:57:17.970 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-7][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:57:20.675 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-8][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:57:23.468 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-2][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:57:34.287 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-10][DBConnectionManager.java:255] - Created a connection of pool:mysql
+2015-03-22 22:57:50.232 INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - [http-nio-8080-exec-11][DBConnectionManager.java:255] - Created a connection of pool:mysql

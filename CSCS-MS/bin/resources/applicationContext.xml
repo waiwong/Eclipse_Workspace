@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	  http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+	  http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="configLocation" value="resources/hibernate.cfg.xml">
+		</property>
+	</bean>
+
+	<bean id="txManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<tx:advice id="txAdvice" transaction-manager="txManager">
+		<tx:attributes>
+			<tx:method name="get*" read-only="true" />
+			<tx:method name="find*" read-only="true" />
+			<tx:method name="*" />
+		</tx:attributes>
+	</tx:advice>
+
+	<aop:config>
+		<aop:pointcut id="anyServiceOperation"
+			expression="execution(* com.cscs.model.service.*Service.*(..))" />
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="anyServiceOperation" />
+	</aop:config>
+
+	<!-- Dao -->
+	<bean id="computerDao" class="com.cscs.model.dao.impl.ComputerDaoHibnImpl">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="cscsDao" class="com.cscs.model.dao.impl.CSCSDaoHibnImpl">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="departmentDao" class="com.cscs.model.dao.impl.DepartmentDaoHibnImpl">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	
+	<bean id="dirDao" class="com.cscs.model.dao.impl.DirDaoHibnImpl">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="gadSoftwareDao" class="com.cscs.model.dao.impl.GadSoftwareDaoHibnImpl">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="osVersionDao" class="com.cscs.model.dao.impl.OSVersionDaoHibnImpl">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="recordDao" class="com.cscs.model.dao.impl.RecordDaoHibnImpl">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="smsDao" class="com.cscs.model.dao.impl.SMSDaoHibnImpl">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	
+	<bean id="defaultDao" class="com.cscs.model.dao.impl.SystemDefaultDaoHibnImpl">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<!-- Service -->
+	<bean id="computerService" class="com.cscs.model.service.ComputerService">
+		<property name="computerDao">
+			<ref bean="computerDao" />
+		</property>
+	</bean>
+
+	<bean id="cscsService" class="com.cscs.model.service.CSCSService">
+		<property name="cscsDao">
+			<ref bean="cscsDao" />
+		</property>
+	</bean>
+
+	<bean id="departmentService" class="com.cscs.model.service.DepartmentService">
+		<property name="departmentDao">
+			<ref bean="departmentDao" />
+		</property>
+	</bean>
+	
+	<bean id="dirService" class="com.cscs.model.service.DirService">
+		<property name="dirDao">
+			<ref bean="dirDao" />
+		</property>
+	</bean>
+
+	<bean id="gadSoftwareService" class="com.cscs.model.service.GadSoftwareService">
+		<property name="gadSoftwareDao">
+			<ref bean="gadSoftwareDao" />
+		</property>
+	</bean>
+
+	<bean id="osVersionService" class="com.cscs.model.service.OSVersionService">
+		<property name="osVersionDao">
+			<ref bean="osVersionDao" />
+		</property>
+	</bean>
+
+	<bean id="recordService" class="com.cscs.model.service.RecordService">
+		<property name="recordDao">
+			<ref bean="recordDao" />
+		</property>
+	</bean>
+
+	<bean id="smsService" class="com.cscs.model.service.SMSService">
+		<property name="smsDao">
+			<ref bean="smsDao" />
+		</property>
+	</bean>
+	
+	<bean id="defaultService" class="com.cscs.model.service.SystemDefaultService">
+		<property name="defaultDao">
+			<ref bean="defaultDao" />
+		</property>
+	</bean>
+
+</beans>

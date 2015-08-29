@@ -1,0 +1,6 @@
+15:47:29.144 DEBUG tst.SQLite.TestSQLite 47 main - ${env:USER}${env:USER} - name = leo;id = 1
+-- ${web:rootDir}${web:rootDir}
+-- ${sys:logPath}${sys:logPath}
+15:47:29.149 DEBUG tst.SQLite.TestSQLite 47 main - ${env:USER}${env:USER} - name = yui;id = 2
+-- ${web:rootDir}${web:rootDir}
+-- ${sys:logPath}${sys:logPath}

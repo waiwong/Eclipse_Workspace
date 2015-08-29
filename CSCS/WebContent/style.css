@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #F6F6F6 url(images/img01.jpg) repeat-x;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6B6B6B;
+}
+
+a {
+	text-decoration: none;
+	color: #6796CE;
+}
+
+a:hover {
+	color: #45134A
+}
+
+/* Wrapper */
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: url(images/img02.jpg) repeat-y;
+}
+
+#wrapper2 {
+	background: url(images/img10.jpg) no-repeat left bottom;
+}
+
+/* Header */
+#header {
+	height: 140px;
+	background: #087FE7 url(images/img03.jpg) no-repeat;
+}
+
+/* Logo */
+#header h1 {
+	margin: 0;
+	padding: 90px 0 0 78px;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+#header h1 a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Page */
+#page {
+	background: url(images/img04.jpg) no-repeat;
+}
+
+/* Content */
+#content {
+	float: left;
+	width: 555px;
+	padding: 0 0 0 70px;
+}
+
+.ui-commandlink {
+	font: 600 1.2em Verdana, Arial, Helvetica, Sans-serif;
+	margin: 10px
+}
+
+.ui-inputtext {
+	font: bold 1.5em "Trebuchet MS", Tahoma, Arial, Sans-Serif;
+	width: 200px;
+}
+
+.ui-button {
+	font: bold 1.2em "Trebuchet MS", Tahoma, Arial, Sans-Serif;
+}
+
+.ui-datatable {
+	font: bold 1.5em "Trebuchet MS", Tahoma, Arial, Sans-Serif;
+	width: 820px;
+}
+
+/* paginator */
+.paginator {
+	background-color: black;
+	height: auto;
+	width: 820px;
+}
+
+.paginator p {
+	padding: 1% 0 1% 30%
+}
+
+/* Footer */
+#footer {
+	height: 108px;
+	background: url(images/img05.jpg) no-repeat;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 45px;
+	text-align: center;
+	color: #8E8E8E;
+}

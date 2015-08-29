@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<categories>
+<category name="Flash与TXT通信">
+<item>
+<title>Flash与TXT通信 基础篇</title>
+<url>skill_detail.jsp?sid=4</url>
+</item>
+<item>
+<title>Flash与TXT通信 进阶篇</title>
+<url>skill_detail.jsp?sid=5</url>
+</item>
+</category>
+<category name="Flash与ASP通信">
+<item>
+<title>Flash与ASP通信 基础篇</title>
+<url>skill_detail.jsp?sid=6</url>
+</item>
+<item>
+<title>Flash与ASP通信 进阶篇</title>
+<url>skill_detail.jsp?sid=7</url>
+</item>
+<item>
+<title>Flash与ASP通信 高级篇</title>
+<url>skill_detail.jsp?sid=8</url>
+</item>
+</category>
+<category name="Flash与HTML通信">
+<item>
+<title>Flash与HTML通信 基础篇</title>
+<url>skill_detail.jsp?sid=9</url>
+</item>
+<item>
+<title>Flash与HTML通信 进阶篇</title>
+<url>skill_detail.jsp?sid=10</url>
+</item>
+</category>
+<category name="Flash与JavaScript通信">
+<item>
+<title>Flash与JavaScript通信 基础篇</title>
+<url>skill_detail.jsp?sid=11</url>
+</item>
+<item>
+<title>Flash与JavaScript通信 进阶篇</title>
+<url>skill_detail.jsp?sid=12</url>
+</item>
+</category>
+<category name="Flash与JSP通信">
+<item>
+<title>Flash与JSP通信 基础篇</title>
+<url>skill_detail.jsp?sid=13</url>
+</item>
+<item>
+<title>Flash与JSP通信 进阶篇</title>
+<url>skill_detail.jsp?sid=14</url>
+</item>
+</category>
+<category name="Flash与PHP通信">
+<item>
+<title>Flash与PHP通信 基础篇</title>
+<url>skill_detail.jsp?sid=15</url>
+</item>
+<item>
+<title>Flash与PHP通信 进阶篇</title>
+<url>skill_detail.jsp?sid=16</url>
+</item>
+</category>
+<category name="Flash与XML通信">
+<item>
+<title>Flash与XML通信 基础篇</title>
+<url>skill_detail.jsp?sid=17</url>
+</item>
+<item>
+<title>Flash与XML通信 进阶篇</title>
+<url>skill_detail.jsp?sid=18</url>
+</item>
+<item>
+<title>Flash与XML通信 高级篇</title>
+<url>skill_detail.jsp?sid=19</url>
+</item>
+</category>
+</categories>

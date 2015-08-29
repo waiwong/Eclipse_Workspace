@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui" template="layout.xhtml">
+
+	<ui:define name="content">
+		<p:growl id="growl" showDetail="true" life="5000" showSummary="false" />
+		<h:form id="form">
+			<h:panelGrid columns="3" cellspacing="5">
+				<h:outputLabel value="#{msg.findBySoftwareName}" />
+				<p:inputText id="keyword" label="Software Keyword"
+					value="#{searchBean.keyword}" required="true" />
+				<p:commandButton value="#{msg.searchBtn}"
+					actionListener="#{searchBean.search}" update="mainTable, :growl" />
+			</h:panelGrid>
+
+			<p:dataTable id="mainTable" var="softwareType"
+				value="#{searchBean.resultList}">
+				<f:facet name="header">
+					<h:outputText value="#{msg.searchResult}" />
+				</f:facet>
+				<p:subTable var="software" value="#{softwareType.objList}">
+					<f:facet name="header">
+						<h:outputText value="#{softwareType.object}" />
+					</f:facet>
+					<p:column>
+						<h:outputText value="#{software.softwareName}" />
+					</p:column>
+				</p:subTable>
+			</p:dataTable>
+
+			<div class="paginator">
+				<p>
+					<p:commandLink actionListener="#{searchBean.pageFirst}"
+						update="mainTable">
+						<h:outputText value="#{msg.first}" escape="false" />
+					</p:commandLink>
+					<p:commandLink actionListener="#{searchBean.pagePrevious}"
+						update="mainTable">
+						<h:outputText value="#{msg.previous}" escape="false" />
+					</p:commandLink>
+					<p:commandLink actionListener="#{searchBean.pageNext}"
+						update="mainTable">
+						<h:outputText value="#{msg.next}" escape="false" />
+					</p:commandLink>
+					<p:commandLink actionListener="#{searchBean.pageLast}"
+						update="mainTable">
+						<h:outputText value="#{msg.last}" escape="false" />
+					</p:commandLink>
+				</p>
+			</div>
+		</h:form>
+	</ui:define>
+
+</ui:composition>

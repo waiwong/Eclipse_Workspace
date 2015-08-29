@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Log4J2>
+<Configuration status="debug" strict="true">
+	<Properties>
+		<Property name="LogPath">C:\\Users\\B1340\\workspace\\SwingStudy\\logs
+		</Property>
+		<property name="BackuplogPath">{LogPath}/backup</property>
+	</Properties>
+	<appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<ThresholdFilter level="trace" onMatch="ACCEPT"
+				onMismatch="DENY" />
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n" />
+		</Console>
+
+		<File name="Debuglog" fileName="${LogPath}/Debuglog.log" append="false">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - $${env:USER}${env:USER} - %msg%xEx%n-- $${web:rootDir}${web:rootDir}%n-- $${sys:logPath}${sys:logPath}%n" />
+		</File>
+
+		<RollingRandomAccessFile name="DevLog"
+			fileName="${LogPath}/DevLog.log" filePattern="${BackuplogPath}/DevLog.%d{yyyy-MM-dd-HH}.log">
+			<PatternLayout
+				pattern="%date{yyyy.MM.dd HH:mm:ss.SSS} %-5level %class{36} %L %M - [%thread][%file:%line] - %msg%xEx%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+			</Policies>
+		</RollingRandomAccessFile>
+
+		<RollingFile name="AllLog" fileName="${LogPath}/Log.log"
+			filePattern="${BackuplogPath}/%d{MM-dd-yyyy}-%i.log.gz">
+			<PatternLayout
+				pattern="%d{yyyy.MM.dd HH:mm:ss z} %-5level %class{36} %L %M - [%thread][%file:%line] - %msg%xEx%n" />
+			<SizeBasedTriggeringPolicy size="1 MB" />
+		</RollingFile>
+
+	</appenders>
+	<loggers>
+		<!-- <logger name="servlets.example.TestLog4jServlet2" level="trace" -->
+		<!-- additivity="false"> -->
+		<!-- <appender-ref ref="Console" /> -->
+		<!-- </logger> -->
+		<root level="trace">
+			<appender-ref ref="Console" />
+			<appender-ref ref="Debuglog" />
+			<appender-ref ref="DevLog" />
+			<appender-ref ref="AllLog" />
+		</root>
+	</loggers>
+</Configuration>   

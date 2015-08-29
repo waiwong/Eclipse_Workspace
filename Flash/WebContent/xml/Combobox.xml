@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<items>
+<sub index="1. 第二代闪客">
+<sub2 index="1. 动画">
+<item index="1. Flash MV"/>
+<item index="2. 短片"/>
+<item index="3. 系列剧"/>
+</sub2>
+</sub>
+<sub index="2. 第一代闪客">
+<sub2 index="1. 动画">
+<item index="1. Flash MV"/>
+<item index="2. 短片"/>
+</sub2>
+<sub2 index="2. 交互">
+<item index="1. Game"/>
+<item index="2. 内容"/>
+</sub2>
+</sub>
+<sub index="3. 国外闪客">
+<sub2 index="1. 动画">
+<item index="1. 短片"/>
+</sub2>
+<sub2 index="2. 交互">
+<item index="1. Flash 网站"/>
+<item index="2. Game"/>
+</sub2>
+<sub2 index="3. 特效">
+<item index="1. 鼠标跟随"/>
+</sub2>
+</sub>
+<sub index="4. 新生代闪客">
+<sub2 index="1. 动画">
+<item index="1. Flash MV"/>
+<item index="2. 短片"/>
+<item index="3. 系列剧"/>
+</sub2>
+<sub2 index="2. 交互">
+<item index="1. Game"/>
+</sub2>
+<sub2 index="3. 特效">
+<item index="1. 3D Flash"/>
+<item index="2. ActionScript"/>
+<item index="3. 视觉效果"/>
+<item index="4. 鼠标跟随"/>
+</sub2>
+</sub>
+</items>

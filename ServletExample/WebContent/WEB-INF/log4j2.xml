@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j2>
+<configuration status="debug" strict="true">
+	<properties>
+		<property name="LogPath">D:\\StudyFolder\\workspace\\logs
+		</property>
+		<property name="BackupLogPath">${LogPath}/backup</property>
+	</properties>
+	<appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<ThresholdFilter level="trace" onMatch="ACCEPT"
+				onMismatch="DENY" />
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} %class{36} %L %M - %msg%xEx%n" />
+		</Console>
+		<File name="DebugLog" fileName="${LogPath}/Debug.log" append="false">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} %class{36} %L %M - %msg%xEx%n" />
+		</File>
+		<RollingRandomAccessFile name="DevLog"
+			fileName="${LogPath}/DevLog.log" filePattern="${BackupLogPath}/Devlog.%d{yyyy-MM-dd-HH}.log">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36} %class{36} %L %M - [%thread][%file:%line] - %msg%xEx%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+			</Policies>
+		</RollingRandomAccessFile>
+		<RollingRandomAccessFile name="AllLog"
+			fileName="${LogPath}/Log.log" filePattern="${BackupLogPath}/%d{yyyy-MM-dd-HH}.log.gz">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36} %class{36} %L %M - [%thread][%file:%line] - %msg%xEx%n" />
+			<Policies>
+				<SizeBasedTriggeringPolicy Size="1 MB" />
+			</Policies>
+		</RollingRandomAccessFile>
+	</appenders>
+	<loggers>
+		<!-- <logger name="com.u9.global.service.log" level="info" -->
+		<!-- additivity="false"> -->
+		<!-- <appender-ref ref="ProductLog" /> -->
+		<!-- </logger> -->
+
+		<root level="trace">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="DebugLog" />
+			<AppenderRef ref="DevLog" />
+			<AppenderRef ref="AllLog"  />
+		</root>
+	</loggers>
+</configuration>

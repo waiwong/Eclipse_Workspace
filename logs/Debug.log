@@ -1,0 +1,13 @@
+22:56:38.737 [http-nio-8080-exec-5] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 161 loadDrivers - Registered the JDBC:com.mysql.jdbc.Driver
+22:56:38.753 [http-nio-8080-exec-5] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager 130 createPools - Create pool success:mysql
+22:56:39.019 [http-nio-8080-exec-5] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - Created a connection of pool:mysql
+22:56:59.220 [http-nio-8080-exec-9] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - Created a connection of pool:mysql
+22:57:01.856 [http-nio-8080-exec-3] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - Created a connection of pool:mysql
+22:57:03.944 [http-nio-8080-exec-6] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - Created a connection of pool:mysql
+22:57:06.239 [http-nio-8080-exec-1] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - Created a connection of pool:mysql
+22:57:07.498 [http-nio-8080-exec-4] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - Created a connection of pool:mysql
+22:57:17.970 [http-nio-8080-exec-7] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - Created a connection of pool:mysql
+22:57:20.675 [http-nio-8080-exec-8] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - Created a connection of pool:mysql
+22:57:23.468 [http-nio-8080-exec-2] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - Created a connection of pool:mysql
+22:57:34.287 [http-nio-8080-exec-10] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - Created a connection of pool:mysql
+22:57:50.232 [http-nio-8080-exec-11] INFO  onlinebookstore.database.DBConnectionManager onlinebookstore.database.DBConnectionManager$DBConnectionPool 255 newConnection - Created a connection of pool:mysql

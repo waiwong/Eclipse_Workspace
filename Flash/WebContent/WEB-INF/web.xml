@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Flash</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+ <servlet>
+		<servlet-name>menuInfo</servlet-name>
+		<servlet-class>
+			jsp.sqlServer.servlet.MenuServlet
+		</servlet-class>
+ </servlet>	
+	<servlet-mapping>
+		<servlet-name>menuInfo</servlet-name>
+		<url-pattern>/Backstage/menu/MENUINFO</url-pattern>
+	</servlet-mapping>	
+	
+ <servlet>
+		<servlet-name>indexInfo</servlet-name>
+		<servlet-class>
+			jsp.sqlServer.servlet.IndexServlet
+		</servlet-class>
+ </servlet>	
+	<servlet-mapping>
+		<servlet-name>indexInfo</servlet-name>
+		<url-pattern>/Backstage/index/INDEXINFO</url-pattern>
+	</servlet-mapping>	
+	
+ <servlet>
+		<servlet-name>worksInfo</servlet-name>
+		<servlet-class>
+			jsp.sqlServer.servlet.WorksServlet
+		</servlet-class>
+ </servlet>	
+	<servlet-mapping>
+		<servlet-name>worksInfo</servlet-name>
+		<url-pattern>/Backstage/works/WORKSINFO</url-pattern>
+	</servlet-mapping>	
+	
+ <servlet>
+		<servlet-name>introInfo</servlet-name>
+		<servlet-class>
+			jsp.sqlServer.servlet.IntroServlet
+		</servlet-class>
+ </servlet>	
+	<servlet-mapping>
+		<servlet-name>introInfo</servlet-name>
+		<url-pattern>/Backstage/intro/INTROINFO</url-pattern>
+	</servlet-mapping>	
+	
+ <servlet>
+		<servlet-name>flasherInfo</servlet-name>
+		<servlet-class>
+			jsp.sqlServer.servlet.FlasherServlet
+		</servlet-class>
+ </servlet>	
+	<servlet-mapping>
+		<servlet-name>flasherInfo</servlet-name>
+		<url-pattern>/Backstage/flasher/FLASHERINFO</url-pattern>
+    </servlet-mapping>	
+    
+  <servlet>
+		<servlet-name>chart1Info</servlet-name>
+		<servlet-class>
+			jsp.sqlServer.servlet.Chart1Servlet
+		</servlet-class>
+ </servlet>	
+	<servlet-mapping>
+		<servlet-name>chart1Info</servlet-name>
+		<url-pattern>/Backstage/index/CHART1INFO</url-pattern>
+    </servlet-mapping>	
+    
+  <servlet>
+		<servlet-name>chart2Info</servlet-name>
+		<servlet-class>
+			jsp.sqlServer.servlet.Chart2Servlet
+		</servlet-class>
+ </servlet>	
+	<servlet-mapping>
+		<servlet-name>chart2Info</servlet-name>
+		<url-pattern>/Backstage/index/CHART2INFO</url-pattern>
+    </servlet-mapping>	
+        
+  <servlet>
+		<servlet-name>featureInfo</servlet-name>
+		<servlet-class>
+			jsp.sqlServer.servlet.FeatureServlet
+		</servlet-class>
+ </servlet>	
+	<servlet-mapping>
+		<servlet-name>featureInfo</servlet-name>
+		<url-pattern>/Backstage/feature/FEATUREINFO</url-pattern>
+    </servlet-mapping>	
+      
+   <servlet>
+		<servlet-name>feature_infoInfo</servlet-name>
+		<servlet-class>
+			jsp.sqlServer.servlet.Feature_infoServlet
+		</servlet-class>
+ </servlet>	
+	<servlet-mapping>
+		<servlet-name>feature_infoInfo</servlet-name>
+		<url-pattern>/Backstage/feature/FEATURE_infoINFO</url-pattern>
+    </servlet-mapping>	
+       
+ <servlet>
+		<servlet-name>skillInfo</servlet-name>
+		<servlet-class>
+			jsp.sqlServer.servlet.SkillServlet
+		</servlet-class>
+ </servlet>	
+	<servlet-mapping>
+		<servlet-name>skillInfo</servlet-name>
+		<url-pattern>/Backstage/skill/SKILLINFO</url-pattern>
+    </servlet-mapping>	
+    
+
+ <servlet>
+		<servlet-name>chineseInfo</servlet-name>
+		<servlet-class>
+			jsp.sqlServer.servlet.ChineseServlet
+		</servlet-class>
+ </servlet>	
+	<servlet-mapping>
+		<servlet-name>chineseInfo</servlet-name>
+		<url-pattern>/Backstage/intro/CHINESEINFO</url-pattern>
+    </servlet-mapping>	
+</web-app>

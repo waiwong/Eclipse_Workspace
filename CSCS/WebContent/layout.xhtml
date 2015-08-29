@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core" xml:lang="en" lang="en">
+
+<h:head>
+	<meta http-equiv="refresh" content="300" />
+	<title>CSCS</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</h:head>
+
+<h:body>
+	<div id="wrapper">
+		<div id="wrapper2">
+			<div id="header">
+				<h1>
+					<h:outputLabel value="#{msg.header}" />
+				</h1>
+			</div>
+
+			<div id="page">
+				<div id="content">
+					<ui:insert name="content" />
+				</div>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+		<div id="footer">
+			<p>
+				<h:outputLabel value="#{msg.footer}" escape="false"
+					styleClass="footerStr" />
+			</p>
+		</div>
+	</div>
+</h:body>
+
+</html>

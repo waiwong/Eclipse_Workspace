@@ -1,0 +1,4 @@
+2015.03.17 15:46:47 CST DEBUG tst.SQLite.TestSQLite 47 main - [main][TestSQLite.java:47] - name = %s;id = %s
+2015.03.17 15:46:47 CST DEBUG tst.SQLite.TestSQLite 47 main - [main][TestSQLite.java:47] - name = %s;id = %s
+2015.03.17 15:47:29 CST DEBUG tst.SQLite.TestSQLite 47 main - [main][TestSQLite.java:47] - name = leo;id = 1
+2015.03.17 15:47:29 CST DEBUG tst.SQLite.TestSQLite 47 main - [main][TestSQLite.java:47] - name = yui;id = 2
